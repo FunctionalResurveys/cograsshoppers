@@ -1,0 +1,299 @@
+/*turned off margins and padding for every element. Must define 
+elements margin and padding individually if you want them to have it.*/
+* {margin: 0; padding: 0;}
+
+body {
+	font-family:arial, helvetica;
+	margin: 30px 0 0 0;
+	font-size: 95%;
+	text-align: center; /*ie workaround for centering the entire page*/
+	background-color: #F0F0F0;
+}
+
+img { 
+	border: 0;
+}
+
+
+h4 {
+	color: #5E5E5E;
+	margin: 0 0 0 0;
+	padding: 0 0 0 0;
+	font-size: 115%;
+}
+
+h4.sub {
+	color: #000000;
+	margin: 0 0 0 0;
+	padding: 0 0 10px 0;
+	font-size: 115%;
+}
+h1 {
+	font-size: large;
+	color: #006633;
+	line-height: 2em;
+	padding-bottom: 0.5em;
+}
+
+/*background for table of Juvenile Characteristics*/
+#gradient {
+	background-image: url(images/grey_gradient.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+	height: 100%;
+}
+
+/*puts the hay image next to the table of Juvenile Characteristics*/
+#hay {
+	clear: right;
+	float: left;
+}
+h2 {
+	font-size: 115%;
+	color: #666666;
+	line-height: 2em;
+}
+
+h5 {
+	color: #5E5E5E;
+	font-size: 100%;
+}
+
+/*this controls the appearance of the table of Juvenile Characteristics*/
+#character td {
+	vertical-align: top;
+	padding-top: 3px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 3px;
+	width: 50%;
+	
+}
+
+
+/*creates a green stripe*/
+#character th {
+	border-bottom-width: 1.5px;
+	border-bottom-style: solid;
+	border-bottom-color: #006633;
+	text-align:left;
+}
+
+
+#character {
+	width: 600px;
+}
+
+/*puts the Juvenile Characteristics numbered dots to the left of the text*/
+#character img {
+	clear: right;
+	float: left;
+}
+
+
+/*moves the Juvenile characteristics text block to the right of the numbered dot image with a little extra space*/
+.juvchar {
+	margin-bottom: 15px;
+	padding-left: 39px;
+}
+
+p.body {
+	margin: 0 0 10px 0;
+	color: #000000;
+}
+
+ul {
+	list-style-type: disc;
+	margin-left: 2em;
+	margin-bottom: 10px;
+}
+
+/*Container for entire page*/
+#container {
+	margin: 0 auto; /*for centering the page*/
+	text-align:left; /*counteracting the IE workaround so that the text is left*/
+	width: 720px;
+	overflow: hidden;
+	background-color: #FFFFFF;
+}
+
+
+/*includes top banner, controls title font appearance*/
+#top {
+	/*width:100%;
+	overflow: hidden;*/
+	font-size: 185%;
+	color: #666666;
+}
+
+/*small size for preposition in title*/
+.mini {
+	font-size: 65%;
+}
+
+/*grey gradient background for the title. controls title text appearance*/
+#gradient2 {
+	background-image: url(images/grey_gradient.jpg);
+	background-repeat: repeat-y;
+	background-position: left;
+	height: 40px;
+	text-indent: 1.5em;
+	padding-top: 5px;
+}
+
+/*holds the content with 30px margins on either side*/
+#content { 
+	margin: 10px 30px 20px 30px;
+	color: #000000;
+	width: 88%;
+	overflow: hidden;
+}
+
+/*serves as left column*/
+#left_col {
+	width: 50%;
+	float: left;
+	padding: 0;
+	color: #000000;
+	overflow: hidden;
+	margin-top: 0;
+	margin-right: 10px;
+	margin-bottom: 10px;
+	margin-left: 0;
+}
+
+
+
+/*serves as right column*/
+#right_col {
+	width: 45%;
+	float: right;
+	margin: 10px 0 0 0;
+	overflow: hidden;
+
+}
+
+
+
+/*serves as left sub column*/
+#left_col_sub_left {
+	float: left;
+	margin: 0 10px 0 0;
+	padding: 0 5px 0 5px;
+	width: 45%;
+}
+
+
+
+/*serves as right sub column*/
+#left_col_sub_right {
+	margin: 0;
+	float: right;
+	width: 40%;
+	padding: 0 5px 0 5px;
+}
+
+
+/*holds the thumbnail images, right column*/
+#right_col table  {
+	width: 100%;
+	color: #FFFFFF;
+	clear: all;
+}
+
+/*for those sub pages without multiple columns - used with left_col_content*/
+#sub_page_no_cols {
+	width: 100%;
+	background-color: #FFFFFF;
+	overflow:hidden;
+}
+
+
+
+/*Left picture table cell on front page*/
+td.topPic_left {
+	border-width: 10px 12px 10px 12px;
+	border-style: solid;
+	border-color: #666666;
+	vertical-align: top;
+	font-style: italic;
+	background-color: #666666;
+}
+
+/*Right picture table cell on front page*/
+td.topPic_right {
+	border-width: 10px 12px 10px 12px;
+	border-style: solid;
+	border-color: #666666;
+	vertical-align: top;
+	font-style: italic;
+	background-color: #666666;
+}
+
+/*holds the footer image*/
+#footer {
+	width: 100%;
+} 
+
+
+
+
+ul.caption {
+	margin: 5px;
+	padding: 0;
+}
+
+li.caption {
+	display: block;
+	list-style: none;
+	text-align: left;
+	font-style: italic;
+	color: #FFFFFF;
+	font-size: 80%;
+}
+
+a:link {
+	color: #006633;
+}
+a:visited {
+	color: #993300;
+}
+a:hover {
+	color: #003300;
+
+}.key {
+	background-color: #FFFFFF;
+	color: #000000;
+}
+
+
+/* this fixes the difference in line height caused by superscripts*/
+.spaced { line-height: 1.4em; }
+
+.spaced SUP { line-height: 0; }
+
+/*controls appearance of pulications text, including reverse indent*/
+p.pub {
+	color: #000000;
+	margin-top: 0;
+	margin-right: 0;
+	margin-bottom: 10px;
+	margin-left: 2em;
+	text-indent: -2em;
+}
+
+/*controls appearance of photo caption*/
+.byline {
+	font-size: 75%;
+	font-style: italic;
+	color: #999999;
+	line-height: 1em;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+#topbar {
+	font-size: smaller;
+	font-weight: bold;
+	text-align: left;
+	padding: 5px;
+}

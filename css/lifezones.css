@@ -1,0 +1,542 @@
+body { color: #000; font-family: "Times New Roman", Times, serif; background-color: #f2ede4; 
+	 }
+	
+	#container {
+	margin: 0 auto; /*for centering the page*/
+	text-align:left; /*counteracting the IE workaround so that the text is left*/
+	width: 900px;}
+
+
+	#containerLz {
+	width: 1170px;
+	margin-top: 0;
+	margin-bottom: 0;
+	margin-left: 25px;
+}
+
+/*This makes a light brown arrow instead of a bullet.*/
+.bullet {
+	list-style-image: url(../images/arrow2.gif);
+}
+
+/*This class duplicates the body text class without the indent.
+For text that is directly after a heading.*/
+.doublespace {
+	line-height: 1.25em;
+	margin-bottom: 1em;
+}
+
+
+.bodytext {
+	line-height: 1.25em;
+	margin-bottom: 1em;
+	text-indent: 2.5em;
+}
+
+/*This contains the left navigation column and the content column. Without the width limit specified, the text area might be too wide.*/
+.navboxcont { width: 900px; height:auto}
+
+/*This contains the left navigation column and the content column if the content column contains database search results.*/
+.navboxcont2 { width: 100%; height:auto}
+
+/*Left navigation column.*/
+.navboxleft {
+	width:250px;
+	float:left;
+	height:auto;
+	
+}
+/*This makes the button-like links on the left.*/
+.navboxleft a {
+	display: block;
+	border: thin dotted #594E48;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	text-decoration: none;
+	background-color: #006600;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 90%;
+	line-height: 1em;
+}
+
+/*This is the rollover state for the button-like links on the left.*/
+.navboxleft a:hover {
+	display: block;
+	border: thin dotted #594E48;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	background-color: #009900;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 90%;
+	line-height: 1em;
+}
+/*This slight indenting indicates a sub-section in the lefthand navigation links.*/
+.submenu {
+	text-indent: 1em;
+}
+.submenu a {
+	display: block;
+	border: thin dotted #594E48;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	text-decoration: none;
+	background-color: #3C913C;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 90%;
+	line-height: 1em;
+}
+.submenu a:hover {
+	display: block;
+	border: thin dotted #594E48;
+	margin-top: 2px;
+	margin-bottom: 2px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	background-color: #4AB54A;
+	text-decoration: none;
+	color: #FFFFFF;
+	font-weight: bolder;
+	font-size: 90%;
+	line-height: 1em;
+	}
+
+
+/*This creates a margin around the navigation links, and the dark bars at the top and bottom of the links.*/
+.marginator_nav {
+	margin-top: 1em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	border-top-width: medium;
+	border-right-width: 0px;
+	border-bottom-width: medium;
+	border-left-width: 0px;
+	border-top-style: solid;
+	border-right-style: none;
+	border-bottom-style: solid;
+	border-left-style: none;
+	border-top-color: #006600;
+	border-bottom-color: #006600;
+}
+
+
+.learnmore a {
+	display: block;
+	border: thin dotted #594E48;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	background-color: #E7E0CB;
+	color: #666633;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 90%;
+	line-height: 1em;
+}
+.learnmore a:hover {
+	display: block;
+	border: thin dotted #594E48;
+	margin-top: 12px;
+	margin-bottom: 12px;
+	padding-top: 8px;
+	padding-right: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	background-color: #f2ede4;
+	color: #666633;
+	text-decoration: none;
+	font-weight: bolder;
+	font-size: 90%;
+	line-height: 1em;
+	}
+	
+	.marginator_learn {
+	margin-top: 1em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+	margin-left: 2em;
+	}
+
+.pic {
+	margin: 5px;
+	border: thin solid #336600;
+}
+
+.pic2 {
+	float: left;
+	margin: 5px;
+	border: thin solid #336600;
+}
+.pic3 {
+	float: right;
+	margin: 5px;
+	border: thin solid #336600;
+}
+/*for wide imgs on lifezone page*/
+.pic4 {
+	margin: 5px;
+}
+
+/*This creates a margin around anything.*/
+.marginator {
+	margin-top: 1em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	margin-left: 2em;
+	
+}
+/*This creates a margin around the lifezone chart.*/
+.marginatorChart {
+	margin-top: 1em;
+	margin-right: 2em;
+	margin-bottom: 1em;
+	margin-left: 0em;
+	
+}
+
+/*Navboxauto is the main content area, with its own links.*/
+.navboxauto { margin-left:250px; width:auto; height:auto}
+
+.navboxauto a {color: #006600;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #006600;
+}
+
+.navboxauto a:visited {
+	color: #006600;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #663399;
+}
+
+.navboxauto a:hover {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+}
+
+.navboxauto a:active {
+	text-decoration: none;
+}
+
+
+/*The title for the content area, and any subsections within it.*/
+.subhead {
+	font-size: 120%;
+	font-weight: bold;
+	color: #000000;
+	border-bottom-width: medium;
+	border-bottom-color: #66CC00;
+	border-bottom-style: groove;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+.footer {
+	font-size: 90%;
+	border-top-width: medium;
+	border-top-color: #33CC00;
+	border-top-style: groove;
+	padding: 5px;
+	margin-top: 2.5em;
+	line-height: 1.25em;
+}
+.footer img {
+	padding-right: 15px;
+	padding-left: 15px;
+}
+
+
+.footer a {
+	color: #006600;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #006600;
+}
+
+.footer a:visited {
+	color: #006600;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #663399;
+}
+
+.footer a:hover {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+}
+
+.footer a:active {
+	text-decoration: none;
+}
+
+li {
+	margin-bottom: 1.5em;
+}
+#results td {
+	padding: 5px;
+	font-size: 85%;
+}
+#results th {
+	background-color: #006600;
+	padding: 5px;
+	font-weight: bold;
+	color: #99CC00;
+	border-top-width: thin;
+	border-right-width: thin;
+	border-bottom-width: thin;
+	border-left-width: thin;
+	border-top-style: solid;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-top-color: #339900;
+	border-right-color: #003300;
+	border-bottom-color: #003300;
+	border-left-color: #339900;
+}
+
+
+/*outdenting for publications*/
+.pub {
+	line-height: 1.5em;
+	text-indent: -1.5em;
+	margin-left: 1.5em;
+}
+.caption {
+	font-size: 75%;
+	font-style: italic;
+	display: block;
+}
+
+/* these "greenlink" styles duplicate the navboxauto link styles but aren't tied to the main content area. */
+.greenlink a {color: #006600;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #006600;
+}
+
+.greenlink a:visited {
+	color: #006600;
+	font-weight: bold;
+	text-decoration: none;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #663399;
+}
+
+.greenlink a:hover {
+	color: #000000;
+	text-decoration: none;
+	font-weight: bold;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #000000;
+}
+
+.greenlink a:active {
+	text-decoration: none;
+}
+.captionsite {
+	font-size: 75%;
+	font-style: italic;
+	float: right;
+}
+
+/*  lifezones page styles    */
+
+#lz1 {
+	background-color: #FFFFFF;
+}
+
+#lz1 p {
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+#gdd {
+	margin-left:50px;
+}
+
+#gdd td {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 150%;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	padding: 0px 5px 0px 5px;
+}
+
+#gdd2 {
+	margin-left:50px;
+}
+
+#gdd2 td {
+	font-family: "Times New Roman", Times, serif;
+	font-size: 110%;
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	padding: 0px 5px 0px 5px;
+}
+
+#lz td {
+	/*background-color:#D5ECB4;*/
+	border-right-width: medium;
+	border-left-width: medium;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #000000;
+	text-align: center;
+	margin: 0px;
+	padding: 3px;
+
+}
+
+#lz tr.d0 td {
+	background-color: #D5ECB4;
+}
+#lz tr.d1 td {
+	background-color: #ffffff;
+}
+
+.white {
+background-color: #FFFFFF;
+}
+
+
+#lz th {
+	border-right-width: medium;
+	border-left-width: medium;
+	border-right-style: solid;
+	border-left-style: solid;
+	border-right-color: #000000;
+	border-left-color: #000000;
+	background-color: #87AF87;
+	text-align: center;
+}
+#01 td {
+	vertical-align: top;
+}
+
+/* this fixes the difference in line height caused by superscripts and subscripts*/
+.spaced { line-height: 1.4em; }
+
+.spaced SUP { line-height: 0; }
+
+.spaced SUB { line-height: 1.6em; }
+#special_nav {
+	margin: 1em;
+	font-size: 105%;
+}
+#special_nav a:link {
+	color: #006600;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #006600;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#special_nav a:visited {
+	color: #993366;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #006600;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+}
+#special_nav a:hover {
+	color: #000000;
+	border-bottom-width: thin;
+	border-bottom-style: dotted;
+	border-bottom-color: #006600;
+	margin-bottom: 5px;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	text-decoration: none;
+	}
+	
+.fussy {
+	text-indent: 2em;
+	padding-right: 2em;
+	padding-left: 2em;
+}
+.fussy a {
+	margin-right: 1em;
+	margin-left: 1em;
+}
+#Layer1 {
+	position:absolute;
+	left:632px;
+	top:489px;
+	width:458px;
+	height:96px;
+	z-index:1;
+}
+#Layer2 {
+	position:absolute;
+	left:846px;
+	top:126px;
+	width:256px;
+	height:279px;
+	z-index:2;
+}
+#zonetemp th {
+	font-size: 90%;
+	font-weight: bold;
+	background-color: #86AF87;
+	padding-bottom: 2px;
+}
+#zonetemp td {
+	text-align: center;
+	width: 20%;
+	font-size: 90%;
+	line-height: 1.25em;
+}
